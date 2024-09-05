@@ -1,123 +1,123 @@
-# How to contribute
+# Nasıl Katkıda Bulunulur?
 
-One of the easiest ways to contribute is to participate in discussions on GitHub issues. You can also contribute by submitting pull requests with code changes.
+Katkıda bulunmanın en kolay yollarından biri, GitHub sorunları üzerinde tartışmalara katılmaktır. Ayrıca kod değişiklikleri içeren pull request'ler göndererek katkıda bulunabilirsiniz.
 
-## General feedback and discussions?
+## Genel geri bildirim ve tartışmalar?
 
-Start a discussion on the [repository issue tracker](https://github.com/dotnet/aspnetcore/issues).
+[Tartışmayı başlatmak için repo'nun issue takip sayfasını](https://github.com/dotnet/aspnetcore/issues) kullanın.
 
-## Bugs and feature requests?
+## Hatalar ve özellik istekleri?
 
-❗ **IMPORTANT: If you want to report a security-related issue, please see the `Reporting security issues and bugs` section below.**
+❗ **ÖNEMLİ: Eğer güvenlikle ilgili bir sorun bildirmek istiyorsanız, lütfen aşağıdaki `Güvenlik sorunları ve hataları bildirme` bölümüne bakın.**
 
-Before reporting a new issue, try to find an existing issue if one already exists. If it already exists, upvote (👍) it. Also, consider adding a comment with your unique scenarios and requirements related to that issue.  Upvotes and clear details on the issue's impact help us prioritize the most important issues to be worked on sooner rather than later. If you can't find one, that's okay, we'd rather get a duplicate report than none.
+Yeni bir sorun bildirmeden önce, mevcut bir sorun olup olmadığını kontrol edin. Eğer varsa, ona oy verin (👍). Ayrıca, o sorunla ilgili benzersiz senaryolarınızı ve gereksinimlerinizi yorum olarak eklemeyi düşünün. Oylar ve sorunun etkisiyle ilgili net detaylar, en önemli sorunları daha hızlı önceliklendirmemize yardımcı olur. Mevcut bir sorun bulamazsanız, sorun değil, bir kopya bildirimde bulunmak hiç bildirmemekten iyidir.
 
-If you can't find an existing issue, log a new issue in the appropriate GitHub repository. Here are some of the most common repositories:
+Eğer mevcut bir sorun bulamazsanız, uygun GitHub deposunda yeni bir sorun kaydedin. İşte en yaygın depolar:
 
-* [Docs](https://github.com/aspnet/Docs)
+* [Dokümantasyon](https://github.com/aspnet/Docs)
 * [AspNetCore](https://github.com/dotnet/aspnetcore)
 * [Entity Framework Core](https://github.com/dotnet/efcore)
 * [Tooling](https://github.com/aspnet/Tooling)
 * [Runtime](https://github.com/dotnet/runtime)
 
-Or browse the full list of repositories in the [aspnet](https://github.com/aspnet/) organization.
+Veya [aspnet](https://github.com/aspnet/) organizasyonundaki tüm depo listesine göz atın.
 
-## Reporting security issues and bugs
+## Güvenlik sorunları ve hataları bildirme
 
-Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC)  secure@microsoft.com. You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Further information, including the MSRC PGP key, can be found in the [Security TechCenter](https://technet.microsoft.com/security/ff852094.aspx).
+Güvenlik sorunları ve hataları, Microsoft Güvenlik Yanıt Merkezi'ne (MSRC) özel olarak secure@microsoft.com adresine e-posta yoluyla bildirilmelidir. 24 saat içinde yanıt almanız gerekir. Herhangi bir sebepten dolayı yanıt almazsanız, orijinal mesajınızı aldığımızdan emin olmak için lütfen e-posta yoluyla takip edin. MSRC PGP anahtarı dahil olmak üzere daha fazla bilgi için [Güvenlik TechCenter](https://technet.microsoft.com/security/ff852094.aspx) adresine bakabilirsiniz.
 
-## Other discussions
+## Diğer tartışmalar
 
-Our team members also monitor several other discussion forums:
+Ekibimiz ayrıca birkaç diğer tartışma forumunu da takip etmektedir:
 
-* [ASP.NET Core forum](https://forums.asp.net/1255.aspx/1?ASP+NET+5)
-* [Stack Overflow](https://stackoverflow.com/) with the [`asp.net-core`](https://stackoverflow.com/questions/tagged/asp.net-core), [`asp.net-core-mvc`](https://stackoverflow.com/questions/tagged/asp.net-core-mvc), or [`entity-framework-core`](https://stackoverflow.com/questions/tagged/entity-framework-core) tags.
+* [ASP.NET Core forumu](https://forums.asp.net/1255.aspx/1?ASP+NET+5)
+* [`asp.net-core`](https://stackoverflow.com/questions/tagged/asp.net-core), [`asp.net-core-mvc`](https://stackoverflow.com/questions/tagged/asp.net-core-mvc) veya [`entity-framework-core`](https://stackoverflow.com/questions/tagged/entity-framework-core) etiketleriyle [Stack Overflow](https://stackoverflow.com/).
 
-## How to submit a PR
+## PR nasıl gönderilir?
 
-We are always happy to see PRs from community members both for bug fixes as well as new features.
-To help you be successful we've put together a few simple rules to follow when you prepare to contribute to our codebase:
+Topluluk üyelerinden gelen hem hata düzeltmeleri hem de yeni özellikler için pull request'leri her zaman memnuniyetle karşılıyoruz.
+Başarılı olmanıza yardımcı olmak için kod tabanına katkıda bulunurken takip etmeniz gereken birkaç basit kural derledik:
 
-### Finding an issue to work on
+### Üzerinde çalışılacak bir sorun bulma
 
-  Over the years we've seen many PRs targeting areas of the framework, which we didn't plan to expand further at the time.
-  In all these cases we had to say `no` to those PRs and close them. That, obviously, is not a great outcome for us. And it's especially bad for the contributor, as they've spent a lot of effort preparing the change.
-  To resolve this problem, we've decided to separate a bucket of issues, which would be great candidates for community members to contribute to. We mark these issues with the `help wanted` label. You can find all these issues at [https://aka.ms/aspnet/helpwanted](https://aka.ms/aspnet/helpwanted). When you choose an issue you'd like to work on, you'll see that some include a comment from our team that follows the [Issue Summary Template](/docs/HelpWantedIssueSummaryCommentTemplate.md). That comment is meant to make it much simpler for you to both understand what the problem is as well as provide references and hints about how to approach it.
+Yıllar içinde çerçevenin o sırada genişletilmesi planlanmayan alanlarına yönelik birçok PR gördük. Bu gibi durumlarda, bu PR'ları kabul edemeyip kapatmak zorunda kaldık. Bu, bizim için harika bir sonuç değil. Katkıda bulunan kişi içinse daha da kötü, çünkü değişikliği hazırlamak için çok fazla çaba harcadılar. Bu sorunu çözmek için topluluk üyelerinin katkıda bulunabileceği sorunları belirledik ve bu sorunları `help wanted` etiketi ile işaretledik. Bu sorunların tamamını [burada bulabilirsiniz](https://aka.ms/aspnet/helpwanted). Çalışmak istediğiniz bir sorun seçtiğinizde, bazılarına ekibimizden bir yorumun eşlik ettiğini göreceksiniz. Bu yorum, hem sorunun ne olduğunu anlamayı hem de nasıl yaklaşılacağına dair referanslar ve ipuçları sağlamayı kolaylaştırır.
 
-Within that set, we have additionally marked issues that are good candidates for first-time contributors. Those do not require too much familiarity with the framework and are more novice-friendly. Those are marked with the `good first issue` label. The full list of such issues can be found at [https://aka.ms/aspnet/goodfirstissues](https://aka.ms/aspnet/goodfirstissues).
+Bu set içinde, ilk kez katkıda bulunanlar için iyi aday olan sorunları da işaretledik. Bunlar çerçeveye aşinalık gerektirmeyen ve daha yeni başlayanlara uygun sorunlardır. Bu sorunlar `good first issue` etiketi ile işaretlenmiştir. Bu tür sorunların tam listesini [burada bulabilirsiniz](https://aka.ms/aspnet/goodfirstissues).
 
-If you would like to make a contribution to an area not documented here, first open an issue with a description of the change you would like to make and the problem it solves so it can be discussed before a pull request is submitted.
+Burada belgelenmemiş bir alana katkıda bulunmak isterseniz, bir pull request göndermeden önce yapılacak değişikliğin bir tanımını içeren bir sorun açarak tartışılmasını sağlayın.
 
-### Before writing code
+### Kod yazmadan önce
 
-  We've seen PRs, where customers would solve an issue in a way, which either wouldn't fit into the framework because of how it's designed or it would change the framework in a way, which is not something we'd like to do. To avoid these situations and potentially save you a lot of time, we encourage customers to discuss the preferred design with the team first. To do so, file a new `design proposal` issue, link to the issue you'd like to address, and provide detailed information about how you'd like to solve a specific problem. We triage issues periodically and it will not take long for a team member to engage with you on that proposal.
-  When you get an agreement from our team members that the design proposal you have is solid, then go ahead and prepare the PR.
-  To file a design proposal, look for the relevant issue in the `New issue` page or simply click [this link](https://github.com/dotnet/aspnetcore/issues/new?assignees=&labels=design-proposal&template=4_design_proposal.md):
-  ![image](https://user-images.githubusercontent.com/34246760/107969904-41b9ae80-6f65-11eb-8b84-d15e7d94753b.png)
+Müşterilerin bir sorunu çerçeveye uygun olmayan bir şekilde çözdüğü veya çerçeveyi istenmeyen bir şekilde değiştirdiği PR'lar gördük. Bu durumlardan kaçınmak ve potansiyel olarak çok fazla zamanınızı kurtarmak için, müşterilerin tercih edilen tasarımı ekibimizle önceden tartışmalarını öneririz. Bunu yapmak için yeni bir `tasarım önerisi` sorunu açın, ele almak istediğiniz sorunun bağlantısını ekleyin ve belirli bir sorunu nasıl çözmek istediğinize dair ayrıntılı bilgiler sağlayın. Sorunları periyodik olarak değerlendiriyoruz ve ekibimizden biri bu öneriniz hakkında sizinle hızlıca etkileşime geçecektir. Ekibimizin üyelerinden tasarım önerinizin sağlam olduğu konusunda bir anlaşma aldığınızda, PR hazırlamaya başlayabilirsiniz.
+Bir tasarım önerisi açmak için, `New issue` sayfasındaki ilgili sorunu arayın veya [bu bağlantıya](https://github.com/dotnet/aspnetcore/issues/new?assignees=&labels=design-proposal&template=4_design_proposal.md) tıklayın:
+![image](https://user-images.githubusercontent.com/34246760/107969904-41b9ae80-6f65-11eb-8b84-d15e7d94753b.png)
 
-### Before submitting the pull request
+### Pull request göndermeden önce
 
-Before submitting a pull request, make sure that it checks the following requirements:
+Pull request göndermeden önce şu gereksinimleri karşıladığınızdan emin olun:
 
-* You find an existing issue with the "help-wanted" label or discuss with the team to agree on adding a new issue with that label
-* You post a high-level description of how it will be implemented and receive a positive acknowledgement from the team before getting too committed to the approach or investing too much effort in implementing it.
-* You add test coverage following existing patterns within the codebase
-* Your code matches the existing syntax conventions within the codebase
-* Your PR is small, focused, and avoids making unrelated changes
+* "help-wanted" etiketli mevcut bir sorun buldunuz veya ekiple tartışarak bu etiketi içeren yeni bir sorun eklemeye karar verdiniz
+* Yüksek düzeyde bir uygulama tasviri paylaştınız ve ekibin bu yaklaşım hakkında olumlu bir geri dönüş aldınız
+* Kod tabanındaki mevcut desenleri izleyerek test kapsamı eklediniz
+* Kodunuz kod tabanındaki mevcut sözdizimi kurallarıyla eşleşiyor
+* PR'ınız küçük, odaklanmış ve ilgisiz değişikliklerden kaçınıyor
 
-If your pull request contains any of the below, it's less likely to be merged.
+PR'ınız aşağıdaki unsurları içeriyorsa, birleştirilme olasılığı daha düşüktür:
 
-* Changes that break backward compatibility
-* Changes that are only wanted by one person/company. Changes need to benefit a large enough proportion of ASP.NET developers.
-* Changes that add entirely new feature areas without prior agreement
-* Changes that are mostly about refactoring existing code or code style
-* Very large PRs that would take hours to review (remember, we're trying to help lots of people at once). For larger work areas, please discuss with us to find ways of breaking it down into smaller, incremental pieces that can go into separate PRs.
+* Geriye dönük uyumluluğu bozan değişiklikler
+* Sadece bir kişi/şirket tarafından istenen değişiklikler. Değişikliklerin, ASP.NET geliştiricilerinin yeterince büyük bir bölümüne fayda sağlaması gerekir.
+* Önceden anlaşmaya varılmamış tamamen yeni özellik alanları ekleyen değişiklikler
+* Mevcut kodu veya kod stilini yeniden düzenlemeye yönelik değişiklikler
+* Saatler sürecek incelemelere neden olacak çok büyük PR'lar. Daha büyük çalışma alanları için, bunu daha küçük, kademeli parçalara ayırma yollarını tartışmak için bizimle iletişime geçin.
 
-### During pull request review
+### Pull request inceleme sırasında
 
-A core contributor will review your pull request and provide feedback. To ensure that there is not a large backlog of inactive PRs, the pull request will be marked as stale after two weeks of no activity. After another four days, it will be closed.
+Bir çekirdek katkıcı, PR'ınızı inceleyecek ve geri bildirim sağlayacaktır. Aktif olmayan PR'ların büyük bir birikimi olmaması için, pull request iki hafta boyunca hiçbir etkinlik olmadığında `stale` olarak işaretlenecektir. Dört gün daha geçtikten sonra kapatılacaktır.
 
-### Resources to help you get started
+### Başlamanıza yardımcı olacak kaynaklar
 
-Here are some resources to help you get started on how to contribute code or new content.
+İşte kod veya yeni içerik katkısında bulunmaya nasıl başlayacağınızı öğrenmenize yardımcı olacak bazı kaynaklar.
 
-* Look at the [Contributor documentation](/docs/README.md) to get started on building the source code on your own.
-* ["Help wanted" issues](https://github.com/dotnet/aspnetcore/labels/help%20wanted) - these issues are up for grabs. Comment on an issue if you want to create a fix.
-* ["Good first issue" issues](https://github.com/dotnet/aspnetcore/labels/good%20first%20issue) - we think these are good for newcomers.
+* Kaynak kodu kendi başınıza oluşturmak için başlamak adına [Katkıcı dokümantasyonuna](/docs/README.md) göz atın.
+* ["Help wanted" sorunları](https://github.com/dotnet/aspnetcore/labels/help%20wanted) - bu sorunlar katkıda bulunmaya açıktır. Bir çözüm oluşturmak isterseniz bir sorun üzerinde yorum yapın.
+* ["Good first issue" sorunları](https://github.com/dotnet/aspnetcore/labels/good%20first%20issue) - bunların yeni başlayanlar için iyi olduğunu düşünüyoruz.
 
-### Identifying the scale
+### Ölçeği Belirleme
 
-If you would like to contribute to one of our repositories, first identify the scale of what you would like to contribute. If it is small (grammar/spelling or a bug fix) feel free to start working on a fix. If you are submitting a feature or substantial code contribution, please discuss it with the team and ensure it follows the product roadmap. You might also read these two blogs posts on contributing code: [Open Source Contribution Etiquette](http://tirania.org/blog/archive/2010/Dec-31.html) by Miguel de Icaza and [Don't "Push" Your Pull Requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/) by Ilya Grigorik. All code submissions will be rigorously reviewed and tested further by the ASP.NET team, and only those that meet an extremely high bar for both quality and design/roadmap appropriateness will be merged into the source.
+Depolarımızdan birine katkıda bulunmak istiyorsanız, önce katkıda bulunmak istediğiniz şeyin ölçeğini belirleyin. Eğer küçükse (dil bilgisi/ yazım veya bir hata düzeltmesi), bir düzeltme üzerinde çalışmaya başlayabilirsiniz. Eğer bir özellik veya önemli bir kod katkısı gönderiyorsanız, lütfen bunu ekibimizle tartışın ve ürün yol
 
-### Submitting a pull request
+ haritasına uygun olduğundan emin olun. Ayrıca bu iki blog yazısını da okuyabilirsiniz: Miguel de Icaza'dan [Açık Kaynak Katkı Etiketi](http://tirania.org/blog/archive/2010/Dec-31.html) ve Ilya Grigorik'ten [Pull Request'lerinizi "Zorlamayın"](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/). Tüm kod gönderimleri ASP.NET ekibi tarafından titizlikle incelenecek ve test edilecektir. Yalnızca kalite ve tasarım/yol haritası uygunluğu açısından yüksek standartlara uyan kodlar kaynakla birleştirilecektir.
 
-You will need to sign a [Contributor License Agreement](https://cla.dotnetfoundation.org/) when submitting your pull request. To complete the Contributor License Agreement (CLA), you will need to follow the instructions provided by the CLA bot when you send the pull request. This needs to only be done once for any .NET Foundation OSS project.
+### Pull request gönderme
 
-If you don't know what a pull request is read this article: <https://help.github.com/articles/using-pull-requests>. Make sure the repository can build and all tests pass. Familiarize yourself with the project workflow and our coding conventions. The coding, style, and general engineering guidelines are published on the [Engineering guidelines](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) page.
+Pull request gönderdiğinizde bir [Katkıcı Lisans Sözleşmesi](https://cla.dotnetfoundation.org/) imzalamanız gerekecektir. Katkıcı Lisans Sözleşmesi'ni (CLA) tamamlamak için, pull request'i gönderdiğinizde CLA botu tarafından sağlanan talimatları izleyin. Bu, herhangi bir .NET Foundation OSS projesi için yalnızca bir kez yapılmalıdır.
 
-### Tests
+Pull request'in ne olduğunu bilmiyorsanız şu makaleyi okuyun: <https://help.github.com/articles/using-pull-requests>. Depoyu derleyebildiğinizden ve tüm testlerin geçtiğinden emin olun. Proje iş akışı ve kodlama kurallarımızla tanışın. Kodlama, stil ve genel mühendislik kuralları [Mühendislik kuralları](https://github.com/dotnet/aspnetcore/wiki/Engineering-guidelines) sayfasında yayımlanmıştır.
 
-* Tests need to be provided for every bug/feature that is completed.
-* Tests only need to be present for issues that need to be verified by QA (for example, not tasks)
-* If there is a scenario that is far too hard to test there does not need to be a test for it.
-  * "Too hard" is determined by the team as a whole.
+### Testler
 
-### Feedback
+* Tamamlanan her hata/özellik için testler sağlanmalıdır.
+* Yalnızca QA tarafından doğrulanması gereken sorunlar için testler olmalıdır (örneğin, görevler için değil)
+* Test edilmesi çok zor bir senaryo varsa, test gerekli değildir.
+  * "Çok zor" ekibin bir bütün olarak belirlediği bir karardır.
 
-Your pull request will now go through extensive checks by the subject matter experts on our team. Please be patient; we have hundreds of pull requests across all of our repositories. Update your pull request according to feedback until it is approved by one of the ASP.NET team members. After that, one of our team members may adjust the branch you merge into based on the expected release schedule.
+### Geri Bildirim
 
-## Merging pull requests
+Pull request'iniz şimdi ekibimizdeki uzmanlar tarafından geniş kapsamlı kontrollerden geçirilecektir. Lütfen sabırlı olun; tüm depolarımızda yüzlerce pull request var. Geri bildirime göre pull request'inizi güncelleyin ve ASP.NET ekibinin bir üyesi tarafından onaylanana kadar sabırlı olun. Sonrasında, ekibimizden biri, beklenen sürüm takvimine göre birleştirme yapılacak dalı ayarlayabilir.
 
-When your pull request has had all feedback addressed, it has been signed off by one or more reviewers with commit access, and all checks are green, we will commit it.
+## Pull request'lerin birleştirilmesi
 
-We commit pull requests as a single Squash commit unless there are special circumstances. This creates a simpler history than a Merge or Rebase commit. "Special circumstances" are rare, and typically mean that there are a series of cleanly separated changes that will be too hard to understand if squashed together, or for some reason we want to preserve the ability to bisect them.
+Pull request'iniz tüm geri bildirimlere yanıt verdiğinde, bir veya daha fazla yetkili incelemeci tarafından onaylandığında ve tüm kontroller başarıyla geçtiğinde, onu birleştireceğiz.
 
-## Additional Resources
+Pull request'leri tek bir Squash commit olarak birleştiriyoruz, özel durumlar dışında. Bu, Merge veya Rebase commit'lerinden daha basit bir geçmiş oluşturur. "Özel durumlar" nadirdir ve genellikle temiz bir şekilde ayrılmış bir dizi değişiklik anlamına gelir veya bunları birlikte sıkıştırmak zor olacağı için ayrı tutulmaları gerektiğini belirtir.
 
-Here are videos (partially outdated) where members of the ASP.NET Core team provide guidance, advice and samples on how to contribute to this project.
-* For ASP.NET Core - https://www.youtube.com/watch?v=hVdwb41FPvU
-* For Blazor - https://www.youtube.com/watch?v=gRg0xxK8L6w
+## Ek Kaynaklar
 
-## Code of conduct
+ASP.NET Core ekibinin bu projeye nasıl katkıda bulunulacağına dair rehberlik, tavsiye ve örnekler verdiği videolar (kısmen güncel değil):
 
-See [CODE-OF-CONDUCT.md](./CODE-OF-CONDUCT.md)
+* ASP.NET Core için - https://www.youtube.com/watch?v=hVdwb41FPvU
+* Blazor için - https://www.youtube.com/watch?v=gRg0xxK8L6w
+
+## Davranış kuralları
+
+[DAVRANIŞ KURALLARI](./CODE-OF-CONDUCT.md) dosyasına bakın.
