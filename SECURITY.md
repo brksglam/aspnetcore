@@ -1,15 +1,15 @@
-# Security Policy
+# Güvenlik Politikası
 
-## Supported Versions
+## Desteklenen Sürümler
 
-The .NET Core and ASP.NET Core support policy, including supported versions can be found at the [.NET Core Support Policy Page](https://dotnet.microsoft.com/platform/support/policy/dotnet-core).
+.NET Core ve ASP.NET Core destek politikası, desteklenen sürümler de dahil olmak üzere, [.NET Core Destek Politikası Sayfası](https://dotnet.microsoft.com/platform/support/policy/dotnet-core)'nda bulunabilir.
 
-## Reporting a Vulnerability
+## Güvenlik Açığını Bildirme
 
-Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC) through https://msrc.microsoft.com or by emailing secure@microsoft.com. 
-You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your 
-original message. Further information, including the MSRC PGP key, can be found in the [MSRC Report an Issue FAQ](https://www.microsoft.com/en-us/msrc/faqs-report-an-issue).
+Güvenlik sorunları ve hataları, Microsoft Güvenlik Yanıt Merkezi'ne (MSRC) https://msrc.microsoft.com üzerinden veya secure@microsoft.com adresine e-posta yoluyla özel olarak bildirilmelidir.  
+24 saat içinde yanıt almanız gerekir. Herhangi bir sebepten ötürü yanıt almazsanız, orijinal mesajınızı aldığımızdan emin olmak için lütfen e-posta yoluyla takip edin.  
+MSRC PGP anahtarı da dahil olmak üzere daha fazla bilgi [MSRC Sorun Bildirme SSS](https://www.microsoft.com/en-us/msrc/faqs-report-an-issue) sayfasında bulunabilir.
 
-Reports via MSRC may qualify for the .NET Core Bug Bounty. Details of the .NET Core Bug Bounty including terms and conditions are at [https://aka.ms/corebounty](https://aka.ms/corebounty).
+MSRC aracılığıyla yapılan bildirimler, .NET Core Hata Ödül Programı'na hak kazanabilir. .NET Core Hata Ödül Programı'nın şartları ve koşulları hakkında detaylar [https://aka.ms/corebounty](https://aka.ms/corebounty) adresindedir.
 
-Please do not open issues for anything you think might have a security implication.
+Güvenlikle ilgili bir etkisi olabileceğini düşündüğünüz konular için lütfen sorun açmayın.
