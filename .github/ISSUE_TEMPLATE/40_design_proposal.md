@@ -1,49 +1,49 @@
 ---
-name: 🤔 Design proposal
-about: Collaborate on a design for a feature/fix or other change
+name: 🤔 Tasarım önerisi
+about: Bir özellik/düzeltme veya başka bir değişiklik için tasarım üzerinde iş birliği yapın
 labels: design-proposal
 ---
 
 <!--
-This template is useful to build consensus about whether work should be done, and if so, the high-level shape of how it should be approached. Use this before fixating on a particular implementation.
+Bu şablon, yapılması gereken bir iş olup olmadığı ve yapılacaksa, bunun nasıl ele alınacağı konusunda fikir birliği oluşturmak için yararlıdır. Belirli bir uygulamaya odaklanmadan önce bunu kullanın.
 -->
 
-## Summary
+## Özet
 
-1-2 sentences. Say what this is about.
+1-2 cümle. Bu önerinin ne hakkında olduğunu belirtin.
 
-## Motivation and goals
+## Motivasyon ve hedefler
 
-1-2 paragraphs, or a bullet-pointed list. What existing pain points does this solve? What evidence shows it's valuable to solve this?
+1-2 paragraf veya madde işaretli bir liste. Bu hangi mevcut acı noktalarını çözüyor? Bunu çözmenin değerli olduğunu gösteren kanıtlar nelerdir?
 
-## In scope
+## Kapsam
 
-A list of major scenarios, perhaps in priority order.
+Ana senaryoların bir listesi, belki de öncelik sırasına göre.
 
-## Out of scope
+## Kapsam dışı
 
-Scenarios you explicitly want to exclude.
+Açıkça hariç tutmak istediğiniz senaryolar.
 
-## Risks / unknowns
+## Riskler / bilinmeyenler
 
-How might developers misinterpret/misuse this? How might implementing it restrict us from other enhancements in the future? Also list any perf/security/correctness concerns.
+Geliştiriciler bunu nasıl yanlış yorumlayabilir/kullanabilir? Bunu uygulamak gelecekte diğer iyileştirmeleri yapmamızı nasıl kısıtlayabilir? Ayrıca performans/güvenlik/doğruluk ile ilgili kaygıları listeleyin.
 
-## Examples
+## Örnekler
 
-Give brief examples of possible developer experiences (e.g., code they would write).
+Olası geliştirici deneyimlerine kısa örnekler verin (örneğin, yazacakları kod).
 
-Don't be deeply concerned with how it would be implemented yet. Your examples could even be from other technology stacks.
+Henüz nasıl uygulanacağına derinlemesine odaklanmayın. Örnekleriniz başka teknoloji yığınlarından bile olabilir.
 
 <!--
-# Detailed design
+# Detaylı tasarım
 
-It's often best not to fill this out until you get basic consensus about the above. When you do, consider adding an implementation proposal with the following headings:
+Yukarıdaki temel konularda fikir birliği sağlamadan bu kısmı doldurmamak genellikle en iyisidir. Sağladığınızda, aşağıdaki başlıklarla bir uygulama önerisi eklemeyi düşünün:
 
-Detailed design
-Drawbacks
-Considered alternatives
-Open questions
-References
+Detaylı tasarım
+Dezavantajlar
+Düşünülen alternatifler
+Açık sorular
+Referanslar
 
-If there's one clear design you have consensus on, you could do that directly in a PR.
+Eğer fikir birliğine vardığınız net bir tasarım varsa, bunu doğrudan bir PR'da da yapabilirsiniz.
 -->
