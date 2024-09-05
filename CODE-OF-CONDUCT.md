@@ -1,6 +1,5 @@
-# Code of Conduct
+# Davranış Kuralları
 
-This project has adopted the code of conduct defined by the Contributor Covenant
-to clarify expected behavior in our community.
+Bu proje, topluluğumuzda beklenen davranışları açıklığa kavuşturmak için Contributor Covenant tarafından tanımlanan davranış kurallarını benimsemiştir.
 
-For more information, see the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct).
+Daha fazla bilgi için [.NET Vakfı Davranış Kuralları](https://dotnetfoundation.org/code-of-conduct) sayfasına bakın.
