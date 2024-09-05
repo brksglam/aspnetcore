@@ -1,39 +1,39 @@
 ---
-name: Test failure
-about: Report a failing test that needs to be quarantined
-title: 'Quarantine <FAILING_TEST_NAME>'
+name: Test hatası
+about: Karantinaya alınması gereken bir başarısız testi bildir
+title: 'Karantina <FAILING_TEST_NAME>'
 labels: test-failure
 assignees: ''
 
 ---
 
 <!--
-Note this issue template is specifically for failing tests within the dotnet/aspnetcore repo.
+Bu sorun şablonu, dotnet/aspnetcore deposundaki başarısız testler için özel olarak hazırlanmıştır.
 -->
 
-## Failing Test(s)
+## Başarısız Test(ler)
 
 <!--
-Provide the fully qualified name(s) of the failing tests.
+Başarısız testlerin tam nitelikli ad(lar)ını sağlayın.
 -->
 
 -
 
-## Error Message
+## Hata Mesajı
 
 <!--
-Provide the error message associated with the test failure, if applicable.
+Test hatasıyla ilişkili hata mesajını sağlayın (varsa).
 -->
 
 ```text
 
 ```
 
-## Stacktrace
+## Yığın İzleme (Stacktrace)
 
 <details>
 <!--
-Provide the stack trace associated with the test failure, if applicable.
+Test hatasıyla ilişkili yığın izini sağlayın (varsa).
 -->
 
 ```text
@@ -41,13 +41,12 @@ Provide the stack trace associated with the test failure, if applicable.
 ```
 </details>
 
-
-## Logs
+## Loglar
 
 <details>
 <!--
-If this is a Helix test failure, include the text of the .log artifact from the failing test.
-Note that you have to be signed in to Azure DevOps to see the test artifacts.
+Eğer bu bir Helix test hatasıysa, başarısız testin .log kaydının metnini ekleyin.
+Testin eserlerini görmek için Azure DevOps'a giriş yapmanız gerektiğini unutmayın.
 -->
 
 ```text
@@ -55,8 +54,8 @@ Note that you have to be signed in to Azure DevOps to see the test artifacts.
 ```
 </details>
 
-## Build
+## Derleme
 
 <!--
-Provide a link to the build where the test failure occurred.
+Test hatasının meydana geldiği derlemenin bağlantısını sağlayın.
 -->
