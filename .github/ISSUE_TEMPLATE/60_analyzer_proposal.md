@@ -1,69 +1,67 @@
 ---
-name: Analyzer proposal
-about: Propose a new analyzer/codefixer or an update to an existing one
+name: Analiz Aracı Önerisi
+about: Yeni bir analiz aracı/kod düzeltici veya mevcut birine güncelleme öner
 title: ''
 labels: api-suggestion, analyzer
 assignees: ''
 ---
 
-## Background and Motivation
+## Arka Plan ve Motivasyon
 
 <!--
-We welcome new analyzers and codefixers in the ASP.NET repo!
+ASP.NET deposunda yeni analiz araçlarını ve kod düzelticilerini memnuniyetle karşılıyoruz!
 
-We use the same process to review both new analyzer/codefixer submissions and API proposals. There is an overview of our process [here](https://github.com/dotnet/aspnetcore/blob/main/docs/APIReviewProcess.md). This template will help us gather the information we need to start the review process.
+Yeni analiz aracı/kod düzeltici gönderimlerini ve API önerilerini gözden geçirmek için aynı süreci kullanıyoruz. Sürecimize genel bakış [burada](https://github.com/dotnet/aspnetcore/blob/main/docs/APIReviewProcess.md) mevcuttur. Bu şablon, inceleme sürecini başlatmak için gereken bilgileri toplamamıza yardımcı olacaktır.
 
-Under this heading, describe the problem that your analyzer is trying to solve. Examples of great motivating scenarios include helping users avoid
-performance issues, potentially insecure code, or recommending better APIs for a scenario.
+Bu başlık altında, analiz aracınızın çözmeye çalıştığı sorunu açıklayın. Performans sorunlarını önlemeye, potansiyel olarak güvensiz kodu önlemeye veya belirli bir senaryo için daha iyi API'ler önermeye yardımcı olan senaryoları açıklamak harika motivasyon örnekleri olacaktır.
 -->
 
-## Proposed Analyzer
+## Önerilen Analiz Aracı
 
-### Analyzer Behavior and Message
+### Analiz Aracı Davranışı ve Mesajı
 
 <!--
-Provide a description of when the analyzer will trigger and the associated analyzer message.
+Analiz aracının ne zaman tetikleneceğini ve ilgili analiz aracı mesajını açıklayın.
 -->
 
 <!--
-Analyzer categories are derived from the categories documented in https://learn.microsoft.com/dotnet/fundamentals/code-analysis/categories
-To select a category, review each category's description and select the best category based on the functionality of your analyzer.
+Analiz aracı kategorileri, https://learn.microsoft.com/dotnet/fundamentals/code-analysis/categories adresinde belgelenen kategorilerden türetilmiştir.
+Her kategorinin açıklamasını gözden geçirerek analiz aracınızın işlevselliğine göre en iyi kategoriyi seçin.
 
-Analyzer severity levels are documented in https://learn.microsoft.com/visualstudio/code-quality/use-roslyn-analyzers#configure-severity-levels
-Review the description to observe how the level set on the analyzer will affect build-time and editor behavior and select the best
-level for the task.
+Analiz aracı şiddet düzeyleri, https://learn.microsoft.com/visualstudio/code-quality/use-roslyn-analyzers#configure-severity-levels adresinde belgelenmiştir.
+Bu düzeylerin yapı zamanında ve düzenleyicide nasıl bir davranış sergileyeceğini gözlemleyin ve göreviniz için en uygun seviyeyi seçin.
 -->
 
-### Category
+### Kategori
 
-- [ ] Design
-- [ ] Documentation
-- [ ] Globalization
-- [ ] Interoperability
-- [ ] Maintainability
-- [ ] Naming
-- [ ] Performance
-- [ ] Reliability
-- [ ] Security
-- [ ] Style
-- [ ] Usage
+- [ ] Tasarım
+- [ ] Dokümantasyon
+- [ ] Küreselleşme
+- [ ] Uyumluluk
+- [ ] Sürdürülebilirlik
+- [ ] İsimlendirme
+- [ ] Performans
+- [ ] Güvenilirlik
+- [ ] Güvenlik
+- [ ] Stil
+- [ ] Kullanım
 
-### Severity Level
+### Şiddet Düzeyi
 
-- [ ] Error
-- [ ] Warning
-- [ ] Info
-- [ ] Hidden
+- [ ] Hata
+- [ ] Uyarı
+- [ ] Bilgi
+- [ ] Gizli
 
-## Usage Scenarios
+## Kullanım Senaryoları
 
 <!--
-Provide code examples that would trigger your analyzer to warn. Identify the spans of code that the analyzer
-will be triggered on. When applicable, describe the result of the code fix associated with the change.
+Analiz aracınızı tetiklemek için örnek kodlar sağlayın. Analiz aracının hangi kod parçalarında tetikleneceğini belirleyin.
+Uygun olduğunda, değişiklikle ilgili kod düzeltmesinin sonucunu açıklayın.
 -->
 
-## Risks
+## Riskler
 
 <!--
-Please mention any risks that to your knowledge the API proposal might entail, such as breaking changes, performance regressions, etc.
+API önerisinin bilginiz dahilinde barındırabileceği risklerden bahsedin, örneğin, kırılma değişiklikleri, performans gerilemeleri, vb.
 -->
