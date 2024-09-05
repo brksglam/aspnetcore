@@ -1,9 +1,9 @@
-# {PR title}
+# {PR başlığı}
 
-Summary of the changes (Less than 80 chars)
+Değişikliklerin özeti (80 karakterden az)
 
-## Description
+## Açıklama
 
-{Detail}
+{Detay}
 
-Fixes #{bug number} (in this specific format)
+Fixes #{hata numarası} (bu belirli formatta)
